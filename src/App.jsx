@@ -8,6 +8,7 @@ import AboutLayout from './Layout/AboutLayout'
 import VissionMission from './pages/About/VissionMission'
 import GoverningBody from './pages/About/GoverningBody'
 import OrganizationStructure from './pages/About/OrganizationStructure'
+import CourseOffered from './pages/Admissions/CourseOffered'
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='governing-body' element={<GoverningBody/>}/>
             <Route path='organization-structure' element={<OrganizationStructure/>}/>
           </Route>
+          <Route path='course-offered' element={<CourseOffered/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
