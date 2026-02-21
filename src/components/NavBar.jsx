@@ -64,6 +64,7 @@ const NavBar = () => {
                         <Link
                             key={i}
                             to={link.path}
+                            // onClick={setOpen(false)}
                             className="text-blue-900 font-medium hover:text-blue-500"
                         >
                             {link.name}

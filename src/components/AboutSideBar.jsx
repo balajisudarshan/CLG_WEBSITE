@@ -7,7 +7,7 @@ const AboutSideBar = () => {
     { name: "About Us", path: "/about" },
     { name: "Vision & Mission", path: "/about/vision" },
     { name: "Governing Body", path: "/about/governing-body" },
-    { name: "Chairman Message", path: "/about/chairman-message" },
+    { name: "Organization Structure", path: "/about/organization-structure" },
     { name: "Director Message", path: "/about/director-message" }
   ]
 
