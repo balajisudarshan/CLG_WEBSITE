@@ -1,1 +1,4 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+.mission-p{
+    @apply text-blue-600 font-bold;
+}
