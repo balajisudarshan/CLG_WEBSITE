@@ -6,6 +6,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import AboutUs from './pages/About/AboutUs'
 import AboutLayout from './Layout/AboutLayout'
 import VissionMission from './pages/About/VissionMission'
+import GoverningBody from './pages/About/GoverningBody'
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,7 +14,8 @@ const App = () => {
         <Route path='/' element = {<Layout/>}>
           <Route path='about' element={<AboutLayout/>}>
             <Route index element={<AboutUs/>}/>
-            <Route path='/about/vision' element={<VissionMission/>}/>
+            <Route path='vision' element={<VissionMission/>}/>
+            <Route path='governing-body' element={<GoverningBody/>}/>
           </Route>
         </Route>
       </Routes>
