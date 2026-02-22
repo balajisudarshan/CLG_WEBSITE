@@ -10,6 +10,7 @@ import GoverningBody from './pages/About/GoverningBody'
 import OrganizationStructure from './pages/About/OrganizationStructure'
 import CourseOffered from './pages/Admissions/CourseOffered'
 import Home from './pages/Home/Home'
+import Contact from './pages/Contact'
 const App = () => {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ const App = () => {
             <Route path='organization-structure' element={<OrganizationStructure />} />
           </Route>
           <Route path='course-offered' element={<CourseOffered />} />
+          <Route path='contact' element={<Contact/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
